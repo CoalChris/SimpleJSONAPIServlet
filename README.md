@@ -49,3 +49,14 @@ input.txt
 
 Sample Postman file for testing:
 SimpleJSONAPI.postman_collection.json
+
+
+# Potential Further Improvements
+How would you “version” your service so if the FACTOR or whole of the calculation changes you can replicate past results?
+Using persisting storage such as a database, the factor could be saved in a table with unique version numbers. Entire calculations could be saved if they are constant and don't often change number of input variables used. To simply record historical calculations for reference, serviceability could be saved against a date or timestamp when it was calculated.
+
+How could you allow an internal party (external to Engineering) to manage the FACTOR and calculation, changing or evolve them as needed?
+Currently the factor is simply a constant. To enable users from other departments to change the factor and calculation, a frontend could be built with input fields to save and update the factor or other calculation parameters. The constant would also benefit from being swapped to a function which returns the final factor value.
+
+Describe how would you deal with authorisation. E.g. how can you guarantee only “approved” consumers (humans or not) can access your service?
+Authorisation credentials would be required. They could be saved in a database and checked on API call. To further increase security, another API could be developed to input the credentials and return a bearer token for use over a period of time. This means customers won't need to send their credentials every time.
