@@ -19,7 +19,7 @@ Send POST Request to:
 http://localhost:8080/SimpleJSONAPIServlet/api
 
 Body content should contain JSON data in format like:
-input.txt
+https://github.com/CoalChris/SimpleJSONAPIServlet/blob/master/input.txt
 
 {
   "income": [
@@ -48,7 +48,7 @@ input.txt
 } 
 
 Sample Postman file for testing:
-SimpleJSONAPI.postman_collection.json
+https://github.com/CoalChris/SimpleJSONAPIServlet/blob/master/SimpleJSONAPI.postman_collection.json
 
 
 # Potential Further Improvements
