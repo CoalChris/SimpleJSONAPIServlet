@@ -1,0 +1,25 @@
+{
+  "income": [
+    {
+      "value": "12.12",
+      "frequency": "day"
+    },
+    {
+      "value": "107.23",
+      "frequency": "week"
+    },
+    {
+      "value": "2869.34",
+      "frequency": "month"
+    },
+    {
+      "value": "34125.45",
+      "frequency": "year"
+    }
+  ],
+  "expenses": [
+    "120.23",
+    "227.34",
+    "965.45"
+  ]
+}

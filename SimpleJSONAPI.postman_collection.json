@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "8495ee99-d3ee-4bd7-874a-2b3c450bd2fb",
+		"name": "SimpleJSONAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/SimpleJSONAPIServlet/api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"income\": [\r\n    {\r\n      \"value\": \"12.12\",\r\n      \"frequency\": \"day\"\r\n    },\r\n    {\r\n      \"value\": \"107.23\",\r\n      \"frequency\": \"week\"\r\n    },\r\n    {\r\n      \"value\": \"2869.34\",\r\n      \"frequency\": \"month\"\r\n    },\r\n    {\r\n      \"value\": \"34125.45\",\r\n      \"frequency\": \"year\"\r\n    }\r\n  ],\r\n  \"expenses\": [\r\n    \"120.23\",\r\n    \"227.34\",\r\n    \"965.45\"\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/SimpleJSONAPIServlet/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"SimpleJSONAPIServlet",
+						"api"
+					]
+				},
+				"description": "Send JSON data to API via POST request"
+			},
+			"response": []
+		}
+	]
+}

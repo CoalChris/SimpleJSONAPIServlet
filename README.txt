@@ -1,6 +1,3 @@
-# SimpleJSONAPIServlet
- API written in Java
-
 Download org.json Package
 https://jar-download.com/artifacts/org.json
 
